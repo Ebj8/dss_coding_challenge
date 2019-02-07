@@ -24,7 +24,14 @@
 # vacbh  vpwyr pu acovz xiob vcwlewt fu brlhjsimzitoztvx
 
 # Your Code Here:
+setwd("~/DSS Challenge/dss_coding_challenge/data")
+library(readr)
+string <- read_file("input_data_07.txt")
+library(stringr)
+
+str_count(string, c("a", "o", "u", "i", "e", "y"))
 
 
 
-# Answer:
+
+# Answer: 24 27 24 29 35 23

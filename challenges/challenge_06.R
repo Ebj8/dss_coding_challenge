@@ -8,9 +8,14 @@
 # Test Case: 3 + 5 + 6 + 9 = 23
 
 # Your Code Here:
+x<-0
+for (i in 1:999) {
+if(i %% 3 == 0||i %% 5 == 0){
+ x <- i+x
+}  
+}
+
+x
 
 
-
-
-
-# Answer:
+# Answer: 233168
