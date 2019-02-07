@@ -15,6 +15,8 @@
 # 372 32 547
 
 # Your Code Here:
+setwd("~/DSS Challenge/dss_coding_challenge/data")
+df <- read.table("input_data_05.txt")
 
 
 

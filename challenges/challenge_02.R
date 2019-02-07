@@ -14,6 +14,8 @@
 # 1003 699 258
 
 # Your Code Here:
+setwd("~/DSS Challenge/dss_coding_challenge/data")
+input_data <- read.delim("input_data_02.txt")
+sum(input_data)
 
-
-# Answer:
+# Answer: 24975

@@ -23,7 +23,27 @@
 # 697906 810818
 
 # Your Code Here:
+setwd("~/DSS Challenge/dss_coding_challenge/data")
+input_data <- read.delim("input_data_03.txt", header = FALSE, sep = ",")
+
+for(i in (1:nrow(input_data))){
+  answer <- input_data[i,1]+input_data[i,2]
+  
+  print(answer)
+  
+}
 
 
 
 # Answer:
+#[1] 1021981
+#[1] 992083
+#[1] 834657
+#[1] 1833883
+#[1] 943285
+#[1] 1726819
+#[1] 999061
+#[1] 1099221
+#[1] 225363
+#[1] 1430880
+#[1] 1508724
